@@ -1,8 +1,5 @@
 ---
-date_started: 20211114
-date_published: 20211114
-date_updated:
-keywords: 
+published: 20211114
 ---
 
 # Reboot
