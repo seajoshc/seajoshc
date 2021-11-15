@@ -1,0 +1,12 @@
+---
+date_started: 20211114
+date_published: 20211114
+date_updated:
+keywords: 
+---
+
+# Reboot
+
+It's been a long time since I last blogged about anything. It's been a long time since I've felt like I had something to share. TBH I've been in a bit of a slump for a bit. Definitely a mental slump the last year or so, no thanks to covid. (Getting my booster next week 🙌 💉) But I've been in a professional slump for several years now. Feeling very little passion for what I do or for tech in general. Which has led to deep apathy for my work. Among other things, I feel like I haven't grown much professionally if I'm being honest with myself.
+
+But I'm making a comeback and I'm making some changes. Cheers to that 🍻
