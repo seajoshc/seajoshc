@@ -2,6 +2,11 @@
 
 <----- good human, bad programmer
 
+# Blog
+| Title | Published |
+| ----- | --------- |
+| [Reboot](blog/reboot.md) | 20211114 |
+
 <!--
 **seajoshc/seajoshc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
