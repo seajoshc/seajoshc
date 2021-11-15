@@ -5,7 +5,7 @@
 # Blog
 | Title | Published |
 | ----- | --------- |
-| [Reboot](https://gist.github.com/seajoshc/01bac7f1080859410555764217866dcb) | 20211114 |
+| [Reboot](https://gist.github.com/seajoshc/01bac7f1080859410555764217866dcb) | 2021-11-14 |
 
 <!--
 **seajoshc/seajoshc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
