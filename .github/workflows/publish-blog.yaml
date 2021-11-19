@@ -23,6 +23,10 @@ jobs:
             - modified: 'blog/**'
       # Run only if files in './blog' were added or changed
       - if: steps.blog.outputs.create_blog == 'true'
+        env:
+          GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
         run: python blog_to_gists.py create ${{ steps.blog.outputs.create_blog_files }}
       - if: steps.blog.outputs.update_blog == 'true'
+        env:
+          GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
         run: python blog_to_gists.py update ${{ steps.blog.outputs.update_blog_files }}
