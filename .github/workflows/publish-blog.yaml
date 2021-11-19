@@ -7,8 +7,10 @@ jobs:
   Blogs-to-Gists:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
       - uses: dorny/paths-filter@v2
         id: changes
         with:
@@ -20,4 +22,4 @@ jobs:
       # Run only if files in './blog' were added or changed
       - name: Run blog_to_gists.py if files in /blog were added or changed
         if: ${{ steps.filter.outputs.blog == 'true' }}
-        run: python3 blogs_to_gists.py ${{ steps.filter.outputs.blog_files }}
+        run: python blogs_to_gists.py ${{ steps.filter.outputs.blog_files }}
