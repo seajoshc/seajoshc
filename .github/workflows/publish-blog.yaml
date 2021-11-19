@@ -18,5 +18,6 @@ jobs:
               - 'blog/**'
             
       # Run only if files in './blog' were added or changed
-      - if: ${{ steps.filter.outputs.blog == 'true' }}
+      - name: Run blog_to_gists.py if files in /blog were added or changed
+        if: ${{ steps.filter.outputs.blog == 'true' }}
         run: python3 blogs_to_gists.py ${{ steps.filter.outputs.blog_files }}
