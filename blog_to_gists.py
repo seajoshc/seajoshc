@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
-import sys
+# Turn a blog into a bunch of gists
+
 import argparse
+import requests
+import sys
 
 
 parser = argparse.ArgumentParser()
@@ -9,3 +12,6 @@ parser.add_argument(
     "blog", help="Space delimited list of all files to upload to Gists.")
 args = parser.parse_args()
 print("Ok we gotttt\n {}\n {}".format(args.operation, args.blog))
+
+r = requests.post('https://api.github.com/gists',
+                  data={'key': 'value'})
