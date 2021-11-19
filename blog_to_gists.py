@@ -2,9 +2,12 @@
 # Turn a blog into a bunch of gists
 
 import argparse
+import os
 import requests
 import sys
 
+
+token = os.environ.get('GISTS_TOKEN')
 
 parser = argparse.ArgumentParser()
 parser.add_argument("operation", help="create or update")
