@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.x'
+      - run: pip install pygithub
       - uses: dorny/paths-filter@v2
         id: blog
         with:
@@ -20,7 +21,6 @@ jobs:
             - added: 'blog/**'
             update_blog:
             - modified: 'blog/**'
-            
       # Run only if files in './blog' were added or changed
       - if: steps.blog.outputs.create_blog == 'true'
         run: python blog_to_gists.py create ${{ steps.blog.outputs.create_blog_files }}
