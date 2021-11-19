@@ -21,5 +21,5 @@ jobs:
             
       # Run only if files in './blog' were added or changed
       - name: Run blog_to_gists.py
-        #if: steps.filter.outputs.backend == 'true'
-        run: python blogs_to_gists.py ${{ steps.filter.outputs.blog_files }}
+        if: steps.filter.outputs.blog == 'true'
+        run: python blog_to_gists.py ${{ steps.filter.outputs.blog_files }}
