@@ -9,4 +9,14 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v2
-      - run: python3 blogs_to_gists.py
+      - uses: dorny/paths-filter@v2
+        id: changes
+        list-files: shell
+        with:
+          filters: |
+            blog:
+              - 'blog/**'
+            
+      # Run only if files in './blog' were added or changed
+      - if: ${{ steps.changes.outputs.src == 'true' }}
+        run: python3 blogs_to_gists.py ${{ steps.filter.outputs.blog_files }}
