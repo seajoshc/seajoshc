@@ -12,14 +12,17 @@ jobs:
         with:
           python-version: '3.x'
       - uses: dorny/paths-filter@v2
-        id: filter
+        id: blog
         with:
           list-files: shell
           filters: |
-            blog:
-            - 'blog/**'
+            create:
+            - added: 'blog/**'
+            update:
+            - modified: 'blog/**'
             
       # Run only if files in './blog' were added or changed
-      - name: Run blog_to_gists.py
-        if: steps.filter.outputs.blog == 'true'
-        run: python blog_to_gists.py ${{ steps.filter.outputs.blog_files }}
+      - if: steps.blog.outputs.create == 'true'
+        run: python blog_to_gists.py create ${{ steps.blog.outputs.blog_files }}
+      - if: steps.blog.outputs.update == 'true'
+        run: python blog_to_gists.py update ${{ steps.blog.outputs.blog_files }}
