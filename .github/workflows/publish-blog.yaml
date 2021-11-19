@@ -17,7 +17,7 @@ jobs:
           list-files: shell
           filters: |
             blog:
-              - 'blog/**'
+            - 'blog/**'
             
       # Run only if files in './blog' were added or changed
       - name: Run blog_to_gists.py if files in /blog were added or changed
