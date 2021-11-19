@@ -16,13 +16,13 @@ jobs:
         with:
           list-files: shell
           filters: |
-            create:
+            create_blog:
             - added: 'blog/**'
-            update:
+            update_blog:
             - modified: 'blog/**'
             
       # Run only if files in './blog' were added or changed
-      - if: steps.blog.outputs.create == 'true'
-        run: python blog_to_gists.py create ${{ steps.blog.outputs.blog_files }}
-      - if: steps.blog.outputs.update == 'true'
-        run: python blog_to_gists.py update ${{ steps.blog.outputs.blog_files }}
+      - if: steps.blog.outputs.create_blog == 'true'
+        run: python blog_to_gists.py create ${{ steps.blog.outputs.create_blog_files }}
+      - if: steps.blog.outputs.update_blog == 'true'
+        run: python blog_to_gists.py update ${{ steps.blog.outputs.update_blog_files }}
