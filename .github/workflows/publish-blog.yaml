@@ -1,8 +1,8 @@
 name: GitHub Actions Demo
-on: [push]
-#  push:
-#    branches:
-#      - main
+on:
+  push:
+    branches:
+      - main
 jobs:
   Blogs-to-Gists:
     runs-on: ubuntu-latest
@@ -27,6 +27,10 @@ jobs:
         env:
           GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
         run: python blog_to_gists.py create ${{ steps.blog.outputs.create_blog_files }}
+      - if: steps.blog.outputs.create_blog == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Adds new blog posts from GitHub Actions
       - if: steps.blog.outputs.update_blog == 'true'
         env:
           GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
