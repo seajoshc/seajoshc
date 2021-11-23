@@ -55,10 +55,13 @@ for post in args.blog.split(","):
             for line in gists:
                 # parse out the gist ID
                 if post in line:
-                    gist_id = line.split("|")[3].strip()
+                    gist_id = line.split("|")[1].split(
+                        "gist.github.com/")[1].split("/")[1].split(")")[0]
                     break
 
         # Update the gist with the new content
         gist = g.get_gist(gist_id)
         gist.edit(description=post, files={post.split(
             "/")[1]: InputFileContent(Path(post).read_text())})
+
+        print(" Updated Gist with ID {}".format(gist_id))
