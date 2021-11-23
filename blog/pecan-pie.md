@@ -9,15 +9,15 @@ Hello internet, I wanted to share a pretty easy pecan pie recipe that just about
 
 ## Ingredients
 
-1/3 cup butter, melted
-1 cup packed dark brown sugar
-3/4 dark corn syrup
-1/2 teaspoon salt (optional if using salted butter)
-3 eggs
-1 teaspoon vanilla extract (optional)
-1 shot of bourbon (optional)
-8oz bag of pecans, halves or pieces OR about 2 cups of pecans
-1 pie crust, refrigerated, frozen, or your own
+* 1/3 cup butter, melted
+* 1 cup packed dark brown sugar
+* 3/4 dark corn syrup
+* 1/2 teaspoon salt (optional if using salted butter)
+* 3 eggs
+* 1 teaspoon vanilla extract (optional)
+* 1 shot of bourbon (optional)
+* 8oz bag of pecans, halves or pieces OR about 2 cups of pecans
+* 1 pie crust, refrigerated, frozen, or your own
 
 ## Hardware
 
