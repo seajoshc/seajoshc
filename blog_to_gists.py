@@ -44,7 +44,7 @@ for post in args.blog.split(","):
                 new_post_title,
                 new_post.html_url,
                 new_post.created_at.strftime("%Y-%m-%d"),
-                new_post.id)
+                post)
             )
 
         print(" {}: {}".format(post, new_post.id))
