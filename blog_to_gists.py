@@ -49,4 +49,16 @@ for post in args.blog.split(","):
 
         print(" {}: {}".format(post, new_post.id))
     elif args.operation == "update":
-        print("todo")
+        gist_id = ""
+        # Read the gist URL from the blog table based on id (post)
+        with open("gists.md") as gists:
+            for line in gists:
+                # parse out the gist ID
+                if post in line:
+                    gist_id = line.split("|")[3].strip()
+                    break
+
+        # Update the gist with the new content
+        gist = g.get_gist(gist_id)
+        gist.edit(description=post, files={post.split(
+            "/")[1]: InputFileContent(Path(post).read_text())})
