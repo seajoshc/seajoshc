@@ -21,9 +21,9 @@ Hello internet, I wanted to share a pretty easy pecan pie recipe that just about
 
 ## Hardware
 
-- 9in pie pan - I like pyrex but it doesn't really matter
-- Measuring cups
+- 9in pie pan with a depth of 1 to 1.5in works best but bigger is ok
 - Large bowl for mixing, hand/stand mixer optional but recommended
+- Measuring cups
 - Aluminum foil
 
 # Recipe
@@ -37,6 +37,6 @@ Hello internet, I wanted to share a pretty easy pecan pie recipe that just about
 1. Pour the mixture into the pie crust.
 1. Distribute the remaining pecans on the top. If you want to get fancy, you can add even more pecans on top and try to arrange them in a pattern or even cover the entirety of the top of the pie for a really nice look.
 1. Bake for 15-20 minutes, checking at the 15min mark. When the crust is starting to turn a light golden brown color, you want to pull it out and cover the crust/edges in foil so they don't burn. Keep your oven closed to keep the heat in, and be careful as to not let the pie splash around when you pull it out as it will be very liquid still. To cover the edges, tear off a good size sheet of aluminum foil into four strips you can place around the pie crust. Don't worry if it's not perfectly on there, even just resting the strips on top in a square shape works fine tp keep the crust from burning.
-1. Bake for another 20-30 minutes until the center of the pie is set. What you are looking for is no movement at all from your pie. While it's still cooking, you will notice the center will jiggle around and be fluid. The longer it cooks the more solid it will get, you want to pull it out once it's set and no longer moving.
+1. Bake for another 15-20 minutes or until the center of the pie is set. What you are looking for is no or barely any movement at all from your pie if you move the pan around. While it's still cooking, you will notice the center will jiggle around and be fluid. The longer it cooks the more solid it will get, you want to pull it out once it's set and no longer moving.
 1. Cool for 30 minutes.
 1. Now the hard part. Refrigerate about two hours. Bring to room temperature before serving. Enjoy with cool whip, ice cream, and/or friends.
