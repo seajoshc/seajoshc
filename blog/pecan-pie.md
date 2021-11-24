@@ -30,7 +30,7 @@ Hello internet, I wanted to share a pretty easy pecan pie recipe that just about
 1. Pre-heat oven to 375F conventional bake.
 1. Place room temperature pie crust inside pie pan.
 1. Put approximately 1/4 cup of the pecans on the bottom of the crust. Don't obsess over the amount, you just want to cover most of the bottom of the crust with a small layer of pecans.
-1. Melt the 1/3 cup butter. https://www.wikihow.com/Melt-Butter. While it's melting, you can move on to the next step if you'd like to starting getting the other ingredients prepared and into the mixing bowl (don't combine until the butter is ready though).
+1. Melt the 1/3 cup butter. While it's melting, you can move on to the next step if you'd like to starting getting the other ingredients prepared and into the mixing bowl (don't combine until the butter is ready though).
 1. Mix together melted butter, 1 cup packed dark brown sugar, 3/4 cup dark corn syrup, 1/2 teaspoon salt, 3 eggs, 1 teaspoon vanilla extract, 1 shot of bourbon. Blend well, hand or stand mixer recommended. The mixture should be pretty thin and runny, smooth with few, if any, lumps, and light brown in color.
 1. Fold in approximately 1/2 of the remaining pecans into the mix using a spoon. Don't obsess over the amount, whatever is left will go on top of the pie.
 1. Pour the mixture into the pie crust.
