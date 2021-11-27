@@ -22,25 +22,25 @@ github_user = g.get_user()
 
 for post in args.blog.split(","):
     print("Processing {}".format(post))
+    post_title = ""
+    post_description = ""
+    # Parse Title and Description out of blog post
+    with open(post) as file:
+        for line in file:
+            if "Title:" in line:
+                post_title = line.split("Title:")[1]
+            if "Description:" in line:
+                post_description = line.split("Description:")[1]
+            if post_title and post_description:
+                break
+
     if args.operation == "create":
         # Create a dict with file name and content
         d = {}
         d[post.split("/")[1]] = InputFileContent(Path(post).read_text())
 
-        # Parse Title and Description out of blog post
-        new_post_title = ""
-        new_post_description = ""
-        with open(post) as file:
-            for line in file:
-                if "Title:" in line:
-                    new_post_title = line.split("Title:")[1]
-                if "Description:" in line:
-                    new_post_description = line.split("Description:")[1]
-                if new_post_title and new_post_description:
-                    break
-
         # Create a new gist
-        new_post = github_user.create_gist(True, d, new_post_description)
+        new_post = github_user.create_gist(True, d, post_description)
 
         # Write the new post details to our blog table
         with open("gists.md", "a") as gists:
@@ -52,7 +52,8 @@ for post in args.blog.split(","):
             )
 
         print(" {}: {}".format(post, new_post.id))
-    elif args.operation == "update":
+
+    if args.operation == "update":
         gist_id = ""
         # Read the gist URL from the blog table based on id (post)
         with open("gists.md") as gists:
@@ -65,7 +66,7 @@ for post in args.blog.split(","):
 
         # Update the gist with the new content
         gist = g.get_gist(gist_id)
-        gist.edit(description=post, files={post.split(
+        gist.edit(description=post_description, files={post.split(
             "/")[1]: InputFileContent(Path(post).read_text())})
 
         print(" Updated Gist with ID {}".format(gist_id))
