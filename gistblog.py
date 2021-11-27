@@ -43,7 +43,7 @@ for post in args.blog.split(" "):
         new_gist = github_user.create_gist(True, d, post_description)
 
         # Write the new post details to our blog table
-        with open("gists.md", "a") as gists:
+        with open("README.md", "a") as gists:
             gists.write("| [{}]({}) | {} | {} |".format(
                 post_title,
                 new_gist.html_url,
@@ -56,7 +56,7 @@ for post in args.blog.split(" "):
     if args.operation == "update":
         gist_id = ""
         # Read the gist URL from the blog table based on id (post)
-        with open("gists.md") as gists:
+        with open("README.md") as gists:
             for line in gists:
                 # parse out the gist ID
                 if post in line:
