@@ -55,8 +55,8 @@ for post in args.blog.split(","):
             for line in gists:
                 # parse out the gist ID
                 if post in line:
-                    gist_id = line.split("|")[1].split(
-                        "gist.github.com/")[1].split("/")[1].split(")")[0]
+                    gist_id = line.split(
+                        "gist.github.com/")[1].split(")")[0]
                     break
 
         # Update the gist with the new content
