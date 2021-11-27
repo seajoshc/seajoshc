@@ -27,16 +27,20 @@ for post in args.blog.split(","):
         d = {}
         d[post.split("/")[1]] = InputFileContent(Path(post).read_text())
 
-        # Create a new gist
-        new_post = github_user.create_gist(True, d, post)
-
-        # Parse Title out of blog post by searching for first "#"
-        new_post_title = "Blog Post"  # Default title
+        # Parse Title and Description out of blog post
+        new_post_title = ""
+        new_post_description = ""
         with open(post) as file:
             for line in file:
-                if "#" in line:
-                    new_post_title = line.split("#")[1].strip()
+                if "Title:" in line:
+                    new_post_title = line.split("Title:")[1]
+                if "Description:" in line:
+                    new_post_description = line.split("Description:")[1]
+                if new_post_title and new_post_description:
                     break
+
+        # Create a new gist
+        new_post = github_user.create_gist(True, d, new_post_description)
 
         # Write the new post details to our blog table
         with open("gists.md", "a") as gists:
