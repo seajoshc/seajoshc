@@ -20,7 +20,7 @@ print("Blog posts to process\n {}\n  {}".format(args.operation, args.blog))
 g = Github(token)
 github_user = g.get_user()
 
-for post in args.blog.split(","):
+for post in args.blog.split(" "):
     print("Processing {}".format(post))
     post_title = ""
     post_description = ""
@@ -40,18 +40,18 @@ for post in args.blog.split(","):
         d[post.split("/")[1]] = InputFileContent(Path(post).read_text())
 
         # Create a new gist
-        new_post = github_user.create_gist(True, d, post_description)
+        new_gist = github_user.create_gist(True, d, post_description)
 
         # Write the new post details to our blog table
         with open("gists.md", "a") as gists:
             gists.write("| [{}]({}) | {} | {} |".format(
-                new_post_title,
-                new_post.html_url,
-                new_post.created_at.strftime("%Y-%m-%d"),
+                post_title,
+                new_gist.html_url,
+                new_gist.created_at.strftime("%Y-%m-%d"),
                 post)
             )
 
-        print(" {}: {}".format(post, new_post.id))
+        print(" {}: {}".format(post, new_gist.id))
 
     if args.operation == "update":
         gist_id = ""
