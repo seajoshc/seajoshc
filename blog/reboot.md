@@ -1,6 +1,12 @@
-[:house:](https://github.com/seajoshc)<br>
-Published on 2021-11-14
+<!--
+Title: Reboot
+Description: New blog, first post.
+Keywords:
+-->
+[:house:Josh's Blog](https://github.com/seajoshc)
 ---
+
+###### Published on 2021-11-14
 
 # Reboot
 
