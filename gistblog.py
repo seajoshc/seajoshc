@@ -45,7 +45,7 @@ for post in args.blog.split(" "):
         # Write the new post details to our blog table
         with open("README.md", "a") as gists:
             gists.write("| [{}]({}) | {} | {} |".format(
-                post_title,
+                post_title.replace("\n", ""),
                 new_gist.html_url,
                 new_gist.created_at.strftime("%Y-%m-%d"),
                 post)
