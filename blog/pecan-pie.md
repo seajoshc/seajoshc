@@ -45,3 +45,5 @@ Hello internet, I wanted to share a pretty easy pecan pie recipe that just about
 1. Bake for another 15-20 minutes or until the center of the pie is set. What you are looking for is no or barely any movement at all from your pie if you move the pan around. While it's still cooking, you will notice the center will jiggle around and be fluid. The longer it cooks the more solid it will get, you want to pull it out once it's set and no longer moving.
 1. Cool for at least 30 minutes.
 1. Now the hard part. You can serve it warm, buttttt it tastes best if you refrigerate about two hours and then bring it back to room temperature before serving. Enjoying with cool whip, ice cream, and/or friends is highly recommended as well.
+
+![Picture of a delicious looking pecan pie](assets/pecan-pie.jpg)
