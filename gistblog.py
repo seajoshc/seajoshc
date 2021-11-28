@@ -27,9 +27,9 @@ for post in args.blog.split(" "):
     with open(post) as file:
         for line in file:
             if "Title:" in line:
-                post_title = line.split("Title:")[1]
+                post_title = line.split("Title:")[1].lstrip()
             if "Description:" in line:
-                post_description = line.split("Description:")[1]
+                post_description = line.split("Description:")[1].lstrip()
             if post_title and post_description:
                 break
 
