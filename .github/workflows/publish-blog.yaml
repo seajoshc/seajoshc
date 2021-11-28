@@ -19,9 +19,9 @@ jobs:
           list-files: shell
           filters: |
             create_blog:
-            - added: 'blog/**.md'
+            - added: 'blog/*.md'
             update_blog:
-            - modified: 'blog/**.md'
+            - modified: 'blog/*.md'
       # Run only if files in './blog' were added or changed
       - if: steps.blog.outputs.create_blog == 'true'
         env:
