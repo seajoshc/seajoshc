@@ -26,7 +26,7 @@ jobs:
       - if: steps.blog.outputs.create_blog == 'true'
         env:
           GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
-        run: python gistblog.py create "${{ steps.blog.outputs.create_blog_files }}""
+        run: python gistblog.py create "${{ steps.blog.outputs.create_blog_files }}"
       - if: steps.blog.outputs.create_blog == 'true'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
@@ -34,4 +34,4 @@ jobs:
       - if: steps.blog.outputs.update_blog == 'true'
         env:
           GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
-        run: python gistblog.py update "${{ steps.blog.outputs.update_blog_files }}""
+        run: python gistblog.py update "${{ steps.blog.outputs.update_blog_files }}"
