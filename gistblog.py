@@ -4,8 +4,8 @@
 import argparse
 import os
 from pathlib import Path
-from github import Github, InputFileContent
 
+from github import Github, InputFileContent
 
 token = os.environ.get('GISTS_TOKEN')
 
