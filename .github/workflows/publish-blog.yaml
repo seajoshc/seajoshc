@@ -24,14 +24,14 @@ jobs:
             - modified: 'blog/*.md'
       # Run only if files in './blog' were added or changed
       - if: steps.blog.outputs.create_blog == 'true'
-        env:
-          GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
-        run: python gistblog.py create "${{ steps.blog.outputs.create_blog_files }}"
-      - if: steps.blog.outputs.create_blog == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: seajoshc/gistblog
         with:
-          commit_message: Adds new blog posts from GitHub Actions
+          gists-token: ${{ secrets.GISTS_TOKEN }}
+          operation: create
+          blog-files: "${{ steps.blog.outputs.create_blog_files }}"
       - if: steps.blog.outputs.update_blog == 'true'
-        env:
-          GISTS_TOKEN: ${{ secrets.GISTS_TOKEN }}
-        run: python gistblog.py update "${{ steps.blog.outputs.update_blog_files }}"
+        uses: seajoshc/gistblog
+        with:
+          gists-token: ${{ secrets.GISTS_TOKEN }}
+          operation: update
+          blog-files: "${{ steps.blog.outputs.update_blog_files }}"
