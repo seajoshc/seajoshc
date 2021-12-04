@@ -24,13 +24,13 @@ jobs:
             - modified: 'blog/*.md'
       # Run only if files in './blog' were added or changed
       - if: steps.blog.outputs.create_blog == 'true'
-        uses: seajoshc/gistblog@v1.1-beta
+        uses: seajoshc/gistblog@v1.2-beta
         with:
           gists-token: ${{ secrets.GISTS_TOKEN }}
           operation: create
           blog-files: "${{ steps.blog.outputs.create_blog_files }}"
       - if: steps.blog.outputs.update_blog == 'true'
-        uses: seajoshc/gistblog@v1.1-beta
+        uses: seajoshc/gistblog@v1.2-beta
         with:
           gists-token: ${{ secrets.GISTS_TOKEN }}
           operation: update
