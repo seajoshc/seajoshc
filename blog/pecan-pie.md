@@ -3,12 +3,10 @@ Title: Pecan Pie Recipe
 Description: An easy pecan pie recipe. Sweet sugary goodness.
 Keywords: recipe pie
 -->
-[:house:Josh's Blog](https://github.com/seajoshc)
+[:house:Josh's Blog](https://github.com/seajoshc) - 🥧 Pecan Pie Recipe
 ---
 
 ###### Published on 2021-11-23
-
-# Pecan Pie Recipe
 
 Hello internet, I wanted to share a pretty easy pecan pie recipe that just about anyone can do. There's so much sugary goodness that it still tastes good even if it doesn't come out perfect! If you try it out, let me know what you think.
 
