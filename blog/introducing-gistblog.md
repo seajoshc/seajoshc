@@ -6,7 +6,11 @@ post_description: Introducing Gistblog 🎉: Blog your little ❤️ out using G
 
 ###### Published on 2021-12-05
 
-I don't quite know what triggered it but one night in early November 2021 I decided that I wanted to start blogging every once in awhile again. It doesn't matter that few, if any, people will ever read the things I write. It's just a creative outlet. But regardless, as always I was paralyzed by all the choices I had for which blog platform/engine to use. The [2021 GitHub Actions Hackathon](https://dev.to/devteam/join-us-for-the-2021-github-actions-hackathon-on-dev-4hn4) just so happened to be going on, so I figured I'd make my own ~~Rube Goldberg machine~~ blog engine. So today, I'm announcing [Gistblog](https://github.com/seajoshc/gistblog). *Funny story the hackathon is [hosted by DEV](https://dev.to/) 😅 It's all good I entered the Whacky Wildcards category 🤣*
+tl;dr [checkout Gistblog here](https://github.com/seajoshc/gistblog) 
+
+I don't quite know what triggered it but one night in early November 2021 I decided that I wanted to start blogging every once in awhile again. It doesn't matter that few, if any, people will ever read the things I write. It's just a creative outlet. But regardless, as always I was paralyzed by all the choices I had for which blog platform/engine to use. I decided to just put my first post in a [GitHub Gist](https://gist.github.com/) to get the ball rolling, thinking I would move it elsewhere later. But then I thought it might be kind of cool to continue using Gists for blogging since it was so easy. I started looking more into the APIs and discovered that a workflow around blogging via Gists was definitely feasible. It also just so happened that the [2021 GitHub Actions Hackathon](https://dev.to/devteam/join-us-for-the-2021-github-actions-hackathon-on-dev-4hn4) was going on, so as any good developer does... I decided to make my own ~~Rube Goldberg machine~~ blog engine instead of trying to pick one! A few weeks later I am happy to introduce... [Gistblog!](https://github.com/seajoshc/gistblog) 
+
+*Funny story, the hackathon is [hosted by DEV](https://dev.to/) 😅 But it's all good, I'm entering the Whacky Wildcards category 🤣*
 
 ### What is Gistblog and why do I need it?
 
