@@ -6,7 +6,7 @@ post_description: Introducing Gistblog 🎉: Blog your little ❤️ out using G
 
 ###### Published on 2021-12-05
 
-I don't quite know what triggered it but one night in early November 2021 I decided that I wanted to start blogging every once in awhile again. It doesn't matter that few, if any, people will ever read the things I write. It's just a creative outlet. But regardless, as always I was paralyzed by all the choices I had for which blog platform/engine to use. The [2021 GitHub Actions Hackathon](https://dev.to/devteam/join-us-for-the-2021-github-actions-hackathon-on-dev-4hn4) just so happened to be going on, so I figured I'd make my own ~~Rube Goldberg machine~~ blog engine. So today, I'm announcing [Gistblog](https://github.com/seajoshc/gistblog). *Funny story the hackathon is [hosted by DEV](https://dev.to/) 😅 I entered the Whacky Wildcards category*
+I don't quite know what triggered it but one night in early November 2021 I decided that I wanted to start blogging every once in awhile again. It doesn't matter that few, if any, people will ever read the things I write. It's just a creative outlet. But regardless, as always I was paralyzed by all the choices I had for which blog platform/engine to use. The [2021 GitHub Actions Hackathon](https://dev.to/devteam/join-us-for-the-2021-github-actions-hackathon-on-dev-4hn4) just so happened to be going on, so I figured I'd make my own ~~Rube Goldberg machine~~ blog engine. So today, I'm announcing [Gistblog](https://github.com/seajoshc/gistblog). *Funny story the hackathon is [hosted by DEV](https://dev.to/) 😅 It's all good I entered the Whacky Wildcards category 🤣*
 
 ### What is Gistblog and why do I need it?
 
