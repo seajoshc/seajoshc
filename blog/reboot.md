@@ -1,7 +1,5 @@
 <!--
-Title: Reboot
-Description: New blog, first post.
-Keywords:
+post_description: Reboot: New blog, who dis.
 -->
 [:house:Josh's Blog](https://github.com/seajoshc) - Reboot
 ---

@@ -1,9 +1,7 @@
 <!--
-Title: Pecan Pie Recipe
-Description: An easy pecan pie recipe. Sweet sugary goodness.
-Keywords: recipe pie
+post_description: 🥧 Pecan Pie Recipe: Sweet sugary goodness.
 -->
-[:house:Josh's Blog](https://github.com/seajoshc) - 🥧 Pecan Pie Recipe
+[:house:Josh's Blog](https://github.com/seajoshc) - 
 ---
 
 ###### Published on 2021-11-23
