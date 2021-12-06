@@ -1,5 +1,5 @@
 <!--
-post_description: Reboot: New blog, who dis.
+post_description: Reboot: New blog, who dis. 
 -->
 [:house:Josh's Blog](https://github.com/seajoshc) - Reboot
 ---

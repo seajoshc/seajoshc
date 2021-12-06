@@ -1,5 +1,5 @@
 <!--
-post_description: 🥧 Pecan Pie Recipe: Sweet sugary goodness.
+post_description: Pecan Pie 🥧 Recipe: Sweet sugary goodness.
 -->
 [:house:Josh's Blog](https://github.com/seajoshc) - 
 ---
