@@ -1,7 +1,7 @@
 <!--
 post_description: Reboot: New blog, who dis. 
 -->
-[:house:Josh's Blog](https://github.com/seajoshc) - Reboot
+[:house: Josh's Blog](https://github.com/seajoshc) - Reboot
 ---
 
 ###### Published on 2021-11-14
