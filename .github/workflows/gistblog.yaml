@@ -18,14 +18,18 @@ jobs:
             update_blog:
             - modified: 'blog/*.md'
       - if: steps.blog.outputs.create_blog == 'true'
-        uses: seajoshc/gistblog-action@v1
+        uses: seajoshc/gistblog-action@v2-beta
         with:
           gists-token: ${{ secrets.GISTS_TOKEN }}
           operation: create
           blog-files: "${{ steps.blog.outputs.create_blog_files }}"
+          blog-name: "Josh's Blog"
+          use-gistio: True
       - if: steps.blog.outputs.update_blog == 'true'
-        uses: seajoshc/gistblog-action@v1
+        uses: seajoshc/gistblog-action@v2-beta
         with:
           gists-token: ${{ secrets.GISTS_TOKEN }}
           operation: update
           blog-files: "${{ steps.blog.outputs.update_blog_files }}"
+          blog-name: "Josh's Blog"
+          use-gistio: True
