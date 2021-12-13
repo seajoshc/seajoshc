@@ -4,7 +4,7 @@ post_description: Book 📖 Notes 📝: Accelerate
 [Josh's Blog](https://github.com/seajoshc) - Book 📖 Notes 📝: Accelerate
 ---
 
-###### Published on 2021-12-XX
+###### Published on 2021-12-12
 
 Book is basically a deep analysis of [State of DevOps Report](https://duckduckgo.com/?q=state+of+devops+report&ia=web) data and a bunch of insights that came out of that. 
 
