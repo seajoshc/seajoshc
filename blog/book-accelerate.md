@@ -30,6 +30,6 @@ Team Dyanmics are still the most important thing, duh
 - Bureaucratic - rule oriented
 - Generative - performance oriented * spoiler alert you want this one
 
-Continous Delivery and Lean Management together impact culture in a positive way, these are the things to go after
+Continuous Delivery and Lean Management together impact culture in a positive way, these are the things to go after
 
 
