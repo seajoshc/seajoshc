@@ -1,7 +1,7 @@
 <!--
 post_description: Introducing Gistblog 🎉: Blog your little ❤️ out using GitHub Gists
 -->
-[Josh's Blog](https://github.com/seajoshc) - Introducing Gistblog 🎉
+[Josh](https://twitter.com/seajoshc)'s Blog - Introducing Gistblog 🎉
 ---
 
 ###### Published on 2021-12-05
