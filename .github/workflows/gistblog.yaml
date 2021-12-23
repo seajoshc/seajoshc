@@ -23,7 +23,7 @@ jobs:
           gists-token: ${{ secrets.GISTS_TOKEN }}
           operation: create
           blog-files: "${{ steps.blog.outputs.create_blog_files }}"
-          blog-name: "[Josh](https://twitter.com/seajoshc)'s Blog"
+          blog-name: "[Josh](https://github.com/seajoshc)'s Blog"
           use-gistio: True
       - if: steps.blog.outputs.update_blog == 'true'
         uses: seajoshc/gistblog-action@v2-beta
@@ -31,5 +31,5 @@ jobs:
           gists-token: ${{ secrets.GISTS_TOKEN }}
           operation: update
           blog-files: "${{ steps.blog.outputs.update_blog_files }}"
-          blog-name: "[Josh](https://twitter.com/seajoshc)'s Blog"
+          blog-name: "[Josh](https://github.com/seajoshc)'s Blog"
           use-gistio: True
