@@ -1,7 +1,7 @@
 <!--
 post_description: Pecan Pie 🥧 Recipe: Sweet sugary goodness.
 -->
-[Josh](https://twitter.com/seajoshc)'s Blog - Pecan Pie 🥧 Recipe
+[Josh](https://github.com/seajoshc)'s Blog - Pecan Pie 🥧 Recipe
 ---
 
 ###### Published on 2021-11-23
