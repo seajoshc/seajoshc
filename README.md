@@ -1,1 +1,1 @@
-[![hello internet ](https://rebukethe.net/assets/gambit.gif)](https://p4a.net)
+[![hello internet ](https://rebukethe.net/assets/gambit.gif)](https://rebukethe.net)
