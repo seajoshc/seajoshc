@@ -1,3 +1,9 @@
-[![hello internet ](https://rebukethe.net/assets/gambit.gif)](https://rebukethe.net)
+[![hello internet ](./assets/gambit.gif)](https://p4a.net)
 
-hack the planet
+👋 Hey I'm Josh. 
+
+Go, Python, and SQL 👍
+
+🪐 Hack the planet 
+
+Be kind to others 🧡
