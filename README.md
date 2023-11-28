@@ -7,3 +7,5 @@ Go, Python, and SQL 👍
 🪐 Hack the planet 
 
 Be kind to others 🧡
+
+[Boot.dev profile](https://www.boot.dev/u/seajoshc)
