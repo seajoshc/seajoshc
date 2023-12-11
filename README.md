@@ -1,8 +1,8 @@
 [![hello internet ](./assets/gambit.gif)](https://p4a.net)
 
-👋 Hey I'm Josh. 
+👋 Hey I'm Josh 
 
-Go, Python, and SQL 👍
+Mostly Go & Python 👍
 
 🪐 Hack the planet 
 
