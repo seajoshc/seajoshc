@@ -2,8 +2,4 @@
 
 👋 Hey I'm Josh 
 
-Mostly Go & Python 👍
-
-🪐 Hack the planet 
-
 Be kind to others 🧡
